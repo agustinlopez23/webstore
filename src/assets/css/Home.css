@@ -1,0 +1,34 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+}
+.homeContainer a {
+  text-decoration: none;
+}
+.productosButtom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.btn-productos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.btnprimary {
+  color: #fff;
+  background-color: #212428;
+  border-color: #000000;
+  font-weight: 800;
+}
+.btn-outline-dark {
+  font-weight: 600;
+}
+.animated-paragraph {
+  font-family: monospace;
+  font-weight: 900;
+}

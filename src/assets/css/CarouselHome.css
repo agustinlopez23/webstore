@@ -1,0 +1,8 @@
+.carousel-inner {
+  height: 60vh;
+}
+@media (max-width: 768px) {
+  .carousel-inner {
+    height: 20vh;
+  }
+}

@@ -1,0 +1,27 @@
+.flex-detail {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.card-img-top {
+  padding: 20px;
+}
+.terminar-compra-btn {
+  width: 80%;
+}
+.btn-atras {
+  margin-bottom: 15px;
+}
+.card-detail {
+  width: 24rem;
+}
+@media (max-width: 768px) {
+  .card-detail {
+    width: 100%;
+  }
+  .navbar-expand {
+    /* flex-wrap: nowrap; */
+    justify-content: flex-start;
+  }
+}

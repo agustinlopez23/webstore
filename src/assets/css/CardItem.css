@@ -1,0 +1,16 @@
+.flex {
+  display: flex;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.productoTituloDesc {
+  color: #212121;
+  text-decoration: none;
+}
+.productoTituloDesc:hover {
+  color: #212121;
+  text-decoration: none;
+}

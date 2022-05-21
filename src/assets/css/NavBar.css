@@ -1,0 +1,31 @@
+.me-auto {
+  margin: 0 !important;
+}
+.nav-link {
+  color: #fafafa;
+  text-decoration: none;
+  margin: 0px 7px;
+}
+.nav-link-d {
+  color: #343434;
+  text-decoration: none;
+  margin: 0px 7px;
+  text-align: center;
+}
+.nav-link-d:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .dropdown-menu {
+    min-width: 7rem;
+  }
+  .nav-link-d {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .navbar-expand {
+    flex-wrap: wrap;
+  }
+}

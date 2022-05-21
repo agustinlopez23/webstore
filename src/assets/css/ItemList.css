@@ -1,0 +1,15 @@
+.productos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.productosTitulo {
+  text-align: center;
+  padding: 20px 0px;
+}
+.spinnerHome {
+  margin-top: 200px;
+}
+.card-img-top {
+  padding: 20px;
+}
